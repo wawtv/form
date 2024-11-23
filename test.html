@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Input Button </title>
+<style>
+/* Input field styling */
+        .responsive-input {
+             display: flex;
+           //max-width: 98%;
+             width: 800px; /* Default width */
+            padding: 10px 5px; /* Inner spacing for better readability */
+            font-size: 14px; /* Font size for input text */
+            border: 1px solid #ccc; /* Light gray border */
+            border-radius: 4px; /* Rounded corners */
+            outline: none; /* Remove default outline */
+            transition: border-color 0.3s ease; /* Smooth focus effect */
+        }
+
+
+        /* Focus effect */
+        .responsive-input:focus {border-color: #007BFF;  /* Blue border on focus */}
+
+        /* Responsive behavior */
+        @media (max-width: 770px) {
+            .responsive-input {
+                width: 96%; /* Adjust to full width on smaller screens */
+                max-width: 96%; /* Prevent overflow */
+                font-size: 14px; /* Slightly smaller font */
+            }
+        }
+
+
+  
+ /* Button styling */
+        .responsive-button {
+            background-color: #28a745; /* Green background */
+            color: #ffffff; /* White text */
+            width: 810px; /* Fixed width */
+             padding: 10px 5px;
+             margin-top: 3px;
+            border: none; /* Remove default border */
+            border-radius: 4px; /* Rounded corners */
+            display: inline-block; /* Ensures proper alignment */
+            text-align: center; /* Centers text */
+            line-height: 20px; /* Vertically centers text */
+            font-size: 20px; /* Text size */
+            cursor: pointer; /* Pointer cursor on hover */
+            transition: background-color 0.3s ease; /* Smooth hover effect */
+        }
+
+        /* Hover effect */
+        .responsive-button:hover {
+            background-color: #218838; /* Darker green on hover */
+        }
+
+        /* Responsive scaling */
+        @media (max-width:768px) {
+            .responsive-button {
+                width: 100%; /* Slightly smaller on small screens */
+                //height: 45px;
+                font-size: 18px;
+                line-height: 18px;
+            }
+        }
+    </style>
+
+</head>
+<body>  <center><h2> input Responsive Button <br><br>
+
+
+<input type="text" class="responsive-input" placeholder="Enter text here">
+
+<button class="responsive-button">Responsive Button </button> 
+</body>
+</html>
