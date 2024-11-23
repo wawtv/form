@@ -1,0 +1,56 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>form login responsive</title>
+<style>
+/* General reset for consistent styling */
+* {margin: 0;   padding: 0; box-sizing: border-box; }
+body { font-family: Arial, sans-serif;  background-color: #f4f4f9;  padding: 20px;}
+/* Container styling */
+.form-container {
+            margin-left: auto;
+            margin-right: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 540px;
+            width: 100%;
+        }
+
+.form-container h1 {font-size: 1.5rem; margin-bottom: 20px;   text-align: center;   color: #333;  }
+
+ input[type="text"], input[type="password"]{
+ margin-bottom: 10px;
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 4px;
+cursor: pointer;
+ }
+
+ button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            font-size: 1rem;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+}
+
+button:hover { background-color: #0056b3; }
+
+/* Responsive styling */
+@media (max-width: 800px) { .form-container {  padding: 15px;  }
+ .form-container h1 { font-size: 1.2rem; }}
+ </style></head><body><br><br>
+<div class="form-container"><h1>form login</h1>
+
+<input type="text" required  name='user'  placeholder="enter user"  >
+<input type="password" required  name='pass'  placeholder="enter password"  >
+<button type="submit">Login</button>
+</div>
+</body></html>
