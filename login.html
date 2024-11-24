@@ -1,0 +1,84 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<title>login php</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+form {
+//border: 3px solid #f1f1f1;
+border: 1px solid #a0f49d;
+width: 99%;
+max-width: 800px;
+margin-left: auto;
+margin-right: auto;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {opacity: 0.8;}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+h2 {text-align: center;}
+
+.container {padding: 16px;}
+
+span.psw {float: right;padding-top: 16px;}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+span.psw {
+display: block;
+float: none;
+}
+.cancelbtn {width: 100%; }
+}
+</style></head><body>
+
+<h2> form login </h2>
+
+<form action="" method="post" name="Login_Form">
+
+<div class="container">
+<label for="uname"><b>Username</b></label>
+<input type="text" placeholder="Enter Username" name="user_name"  required>
+
+<label for="psw"><b>Password</b></label>
+<input type="password" placeholder="Enter Password" name="password" required>
+        
+<button name="Submit" type="submit">Login</button>
+
+<!-- <label>
+<input type="checkbox" checked="checked" name="remember"> Remember me
+</label> -->
+</div></form> 
+<!-- <?php if(isset($msg)) {echo '<center><h2>' .$msg; } ?> -->
+  
+</body></html>
