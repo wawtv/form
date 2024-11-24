@@ -1,15 +1,12 @@
 # form
-
 # My Links:
-My site at GitHub Pages: http://zoptv.github.io/
-
 form login responsive: https://wawtv.github.io/form/
 
-input button responsive: https://wawtv.github.io/form/input-button html
+input button responsive: https://wawtv.github.io/form/input-button
 
-form login username password responsive css: https://wawtv.github.io/form/login.html
+form login username password responsive css: https://wawtv.github.io/form/login
 
-form login username password responsive css: https://wawtv.github.io/form/login1.html
+form login username password responsive css: https://wawtv.github.io/form/login1
 
 
 
