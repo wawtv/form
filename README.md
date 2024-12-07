@@ -1,10 +1,8 @@
 # form
-![login](https://wawtv.github.io/form/login.png)
-
 ![login form](https://github.com/wawtv/form/blob/gh-pages/login.png?raw=true)
-
-
 # My Links:
+[preview image](https://wawtv.github.io/form/login.png)
+
 ###### [form login responsive](https://wawtv.github.io/form/)
 
 ###### [input button responsive](https://wawtv.github.io/form/input-button)
