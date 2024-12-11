@@ -1,0 +1,70 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>login bg </title>
+<style>
+* {box-sizing: border-box; margin: 0;  padding: 0;}
+body {font-family: Arial, sans-serif; 
+/* background-image: url("https://www.bing.com/th?id=OHR.DolomitesSky_ROW6574321167_1920x1080.jpg"); */
+background-image: url("./bg.jpg");
+/* Full height */
+height: 100%; 
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+h2 {color:white; margin-bottom: 15px; font-size:30px; text-align: center; }
+
+.login-form {
+border: 2px solid rgba(255, 255, 255, .2);
+box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+border-radius: 15px;
+width: 98%;
+max-width: 640px;
+margin: auto;
+padding: 40px;
+}
+
+input[type="text"], input[type="password"] {
+width: 98%;
+margin-top: 4px;
+padding: 10px;
+border-radius: 5px;
+outline: none;
+background: transparent;
+border: 1.5px solid rgba(255, 255, 255, .2);
+font-size: 18px;
+color: white;
+}
+
+input[type="text"]::placeholder{color: white;}
+input[type="text"]:focus {border-color: #fff;}
+input[type="password"]:focus {border-color: #fff;}
+
+button {
+width: 98%;
+margin-top: 4px;
+padding: 10px;
+font-size: 20px;
+background-color: #8AF7F759; 
+color: #fff;
+border: 1px solid rgba(255, 255, 255, .2);
+border-radius: 5px;
+cursor: pointer;
+}
+
+button:hover {background-color: #FBFBFD5E;}
+button:focus {border-color: #fff;}
+</style></head><body>
+<div class="login-form"> <h2>Login</h2><br>
+<input  type="text" placeholder="username"  required>
+<input  type="password" placeholder="password"  required>
+<button type="button">Login</button>
+</div>
+</body></html>
